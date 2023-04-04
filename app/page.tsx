@@ -1,9 +1,9 @@
+import Home from "@/views/Home"
 
-
-export default function Home() {
+export default function App() {
   return (
     <div>
-      <h1>helllo</h1>
+      <Home />
     </div>
   )
 }
