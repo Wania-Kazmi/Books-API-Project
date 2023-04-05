@@ -1,7 +1,9 @@
-import React from 'react';
-
-export default function BookDetail() {
+import BookDetailView from "@/views/BookDetail"
+export default function BookDetail(props:any) {
   return (
-    <div> BookDetail is this  </div>
+    <div> 
+         {/* @ts-expect-error Server Component*/}
+        <BookDetailView {...props} />
+    </div>
   )
 }
